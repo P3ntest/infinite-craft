@@ -6,10 +6,17 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/trpc": "^1.0.2",
+    "@elysiajs/websocket": "^0.2.8",
+    "@prisma/client": "^5.16.2",
+    "@trpc/server": "^10.45.2",
+    "elysia": "latest",
+    "openai": "^4.52.5",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "prisma": "^5.16.2"
   },
   "module": "src/index.js"
 }
